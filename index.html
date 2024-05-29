@@ -1,0 +1,1228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from themes.rslahmed.dev/rafcart-tailwind/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 29 May 2024 05:15:05 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RAFCART - Multipurpose eCommerce HTML Template">
+    <meta name="author" content="Programming Kit">
+    <title>RAFCART TAILWIND - Multipurpose eCommerce HTML Template</title>
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/nice-select2.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header class="absolute w-full left-0 top-0 py-4">
+        <div class="container mx-auto px-3">
+            <div class="flex items-center justify-between">
+                <div class="logo">
+                    <img src="assets/images/logo.svg" alt="logo">
+                </div>
+                <div class="flex items-center">
+                    <div class="menu hidden lg:block">
+                        <a href="#allpages" class="mr-8 text-[#2B2D42] font-medium">Demo</a>
+                        <a href="#features" class="mr-8 text-[#2B2D42] font-medium">Features</a>
+                    </div>
+                    <div class="lg:hidden relative">
+                        <div class="btn" onclick="myFunction(this)">
+                            <div class="bar-1 w-[24px] h-[3px] bg-black transition mt-1"></div>
+                            <div class="bar-2 w-[24px] h-[3px] bg-black transition mt-1"></div>
+                            <div class="bar-3 w-[24px] h-[3px] bg-black transition mt-1"></div>
+                        </div>
+
+                        <div
+                            class="df-wrap opacity-0 invisible bg-white w-[200px] py-2 rounded absolute top-10 right-0">
+                            <a href="#allpages"
+                                class="text-[#2B2D42] hover:bg-[#f5e6eb] font-medium block px-4 py-1 cursor-pointer">Demo</a>
+                            <a href="#features"
+                                class="text-[#2B2D42] hover:bg-[#f5e6eb] font-medium block px-4 py-1 cursor-pointer">Features</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- banner -->
+    <div style="background-image: url(assets/landing/images/landing-bg.jpg);" class="bg-cover bg-center">
+        <div class="container mx-auto grid grid-cols-2 px-3">
+            <div class="col-span-2 lg:col-span-1">
+                <div class="pt-[125px] lg:pt-[250px] pb-[55px] lg:pb-[200px]">
+                    <h1 class="text-[32px] sm:text-[38px] text-[#2B2D42] pb-2">Rafcart Tailwind - Multipurpose eCommerce
+                        HTML Template
+                    </h1>
+                    <p class="text-[#52575C] mb-8">We made like real application. We did not use unwanted pages. <br
+                            class="d-none d-xl-block">
+                        It will not make you confused.</p>
+                    <div class="w-max">
+                        <a href="#allpages" class="default_btn flex gap-2 items-center group">
+                            <span class="text-white group-hover:text-primary transition">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                    <g fill="none">
+                                        <path
+                                            d="M24 0v24H0V0h24ZM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035c-.01-.004-.019-.001-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.017-.018Zm.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01l-.184-.092Z" />
+                                        <path fill="currentColor"
+                                            d="M12 5c3.679 0 8.162 2.417 9.73 5.901c.146.328.27.71.27 1.099c0 .388-.123.771-.27 1.099C20.161 16.583 15.678 19 12 19c-3.679 0-8.162-2.417-9.73-5.901C2.124 12.77 2 12.389 2 12c0-.388.123-.771.27-1.099C3.839 7.417 8.322 5 12 5Zm0 3a4 4 0 1 0 0 8a4 4 0 0 0 0-8Zm0 2a2 2 0 1 1 0 4a2 2 0 0 1 0-4Z" />
+                                    </g>
+                                </svg>
+                            </span>
+                            demo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-span-2 lg:col-span-1 flex items-end">
+                <div class="banner_img">
+                    <img src="assets/landing/images/landing.png" alt="banner">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- all pages -->
+    <div id="allpages" class="all_pages py-14">
+        <div class="container-fluid">
+            <div class="flex flex-col justify-center items-center">
+                <h2 class="text-2xl sm:text-3xl text-[#2B2D42] text-center font-medium">
+                    <span class="text-primary">3+</span> Stunning Home Pages With <span class="text-primary">34+</span>
+                    <span
+                        class="text-2xl sm:text-3xl text-[#2B2D42] text-center font-medium sm:flex sm:justify-center mt-2">Inner
+                        Pages</span>
+                </h2>
+            </div>
+            <div class="flex flex-wrap justify-center items-center gap-5 pt-8 filter-wrap">
+                <button
+                    class="px-8 py-2 border border-primary rounded hover:bg-primary hover:text-white transition filter-item active"
+                    data-filter='all'>All</button>
+                <button
+                    class="px-8 py-2 border border-primary rounded hover:bg-primary hover:text-white transition filter-item"
+                    data-filter='home'>Home Pages</button>
+                <button
+                    class="px-8 py-2 border border-primary rounded hover:bg-primary hover:text-white transition filter-item"
+                    data-filter='account'>My Account</button>
+                <button
+                    class="px-8 py-2 border border-primary rounded hover:bg-primary hover:text-white transition filter-item"
+                    data-filter='shop'>Shop</button>
+                <button
+                    class="px-8 py-2 border border-primary rounded hover:bg-primary hover:text-white transition filter-item"
+                    data-filter='other'>Other</button>
+            </div>
+        </div>
+        <div class="container mx-auto px-3">
+            <div class="grid grid-cols-12 gap-5 mt-5 show-wrap">
+                <!-- home pages -->
+                <div class="show-item  col-span-12 sm:col-span-6 lg:col-span-3 h-80 shadow group isotop_item home">
+                    <a href="index-1.html" class="col-span-3 block">
+                        <div class="relative">
+                            <div class="w-full h-[270px] ">
+                                <img src="assets/landing/images/pages/index1.png" alt="pages"
+                                    class="w-full h-full object-cover object-top">
+                            </div>
+                            <div
+                                class="w-full h-full absolute left-0 top-0 opacity-0 group-hover:opacity-100 group-hover:bg-black group-hover:bg-opacity-50 transition duration-300 overflow-hidden">
+                                <div class="absolute left-1/2 top-1/2 -translate-y-1/2 text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M15 10h-3V7a1 1 0 0 0-2 0v3H7a1 1 0 0 0 0 2h3v3a1 1 0 0 0 2 0v-3h3a1 1 0 0 0 0-2Zm6.71 10.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 7-7a7 7 0 0 1-7 7Z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-3 text-center">
+                            <h4 class="text-lg text-[#2B2D42] font-medium">Home One</h4>
+                        </div>
+                    </a>
+                </div>
+                <!-- home pages end -->
+
+                <!-- home 2 -->
+                <div class="show-item col-span-12 sm:col-span-6 lg:col-span-3 h-80 shadow group isotop_item home">
+                    <a href="index-2.html" class="col-span-3 block">
+                        <div class="relative">
+                            <div class="w-full h-[270px] ">
+                                <img src="assets/landing/images/pages/index2.png" alt="pages"
+                                    class="w-full h-full object-cover object-top">
+                            </div>
+                            <div
+                                class="w-full h-full absolute left-0 top-0 opacity-0 group-hover:opacity-100 group-hover:bg-black group-hover:bg-opacity-50 transition duration-300 overflow-hidden">
+                                <div class="absolute left-1/2 top-1/2 -translate-y-1/2 text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M15 10h-3V7a1 1 0 0 0-2 0v3H7a1 1 0 0 0 0 2h3v3a1 1 0 0 0 2 0v-3h3a1 1 0 0 0 0-2Zm6.71 10.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 7-7a7 7 0 0 1-7 7Z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-3 text-center">
+                            <h4 class="text-lg text-[#2B2D42] font-medium">Home Two</h4>
+                        </div>
+                    </a>
+                </div>
+                <!-- home 2 end -->
+
+                <!-- home 3 -->
+                <div class="show-item col-span-12 sm:col-span-6 lg:col-span-3 h-80 shadow group isotop_item home">
+                    <a href="index-3.html" class="col-span-3 block">
+                        <div class="relative">
+                            <div class="w-full h-[270px] ">
+                                <img src="assets/landing/images/pages/index3.png" alt="pages"
+                                    class="w-full h-full object-cover object-top">
+                            </div>
+                            <div
+                                class="w-full h-full absolute left-0 top-0 opacity-0 group-hover:opacity-100 group-hover:bg-black group-hover:bg-opacity-50 transition duration-300 overflow-hidden">
+                                <div class="absolute left-1/2 top-1/2 -translate-y-1/2 text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M15 10h-3V7a1 1 0 0 0-2 0v3H7a1 1 0 0 0 0 2h3v3a1 1 0 0 0 2 0v-3h3a1 1 0 0 0 0-2Zm6.71 10.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 7-7a7 7 0 0 1-7 7Z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-3 text-center">
+                            <h4 class="text-lg text-[#2B2D42] font-medium">Home Three</h4>
+                        </div>
+                    </a>
+                </div>
+                <!-- home 3 end -->
+
+                <!-- about us -->
+                <div class="show-item col-span-12 sm:col-span-6 lg:col-span-3 h-80 shadow group isotop_item other">
+                    <a href="about.html" class="col-span-3 block">
+                        <div class="relative">
+                            <div class="w-full h-[270px] ">
+                                <img src="assets/landing/images/pages/about-us.png" alt="pages"
+                                    class="w-full h-full object-cover object-top">
+                            </div>
+                            <div
+                                class="w-full h-full absolute left-0 top-0 opacity-0 group-hover:opacity-100 group-hover:bg-black group-hover:bg-opacity-50 transition duration-300 overflow-hidden">
+                                <div class="absolute left-1/2 top-1/2 -translate-y-1/2 text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M15 10h-3V7a1 1 0 0 0-2 0v3H7a1 1 0 0 0 0 2h3v3a1 1 0 0 0 2 0v-3h3a1 1 0 0 0 0-2Zm6.71 10.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 7-7a7 7 0 0 1-7 7Z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-3 text-center">
+                            <h4 class="text-lg text-[#2B2D42] font-medium">About Us</h4>
+                        </div>
+                    </a>
+                </div>
+                <!-- about us end -->
+
+                <!-- Contact us -->
+                <div class="show-item col-span-12 sm:col-span-6 lg:col-span-3 h-80 shadow group isotop_item other">
+                    <a href="contact.html" class="col-span-3 block">
+                        <div class="relative">
+                            <div class="w-full h-[270px] ">
+                                <img src="assets/landing/images/pages/contact-us.png" alt="pages"
+                                    class="w-full h-full object-cover object-top">
+                            </div>
+                            <div
+                                class="w-full h-full absolute left-0 top-0 opacity-0 group-hover:opacity-100 group-hover:bg-black group-hover:bg-opacity-50 transition duration-300 overflow-hidden">
+                                <div class="absolute left-1/2 top-1/2 -translate-y-1/2 text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M15 10h-3V7a1 1 0 0 0-2 0v3H7a1 1 0 0 0 0 2h3v3a1 1 0 0 0 2 0v-3h3a1 1 0 0 0 0-2Zm6.71 10.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 7-7a7 7 0 0 1-7 7Z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-3 text-center">
+                            <h4 class="text-lg text-[#2B2D42] font-medium">Contact Us</h4>
+                        </div>
+                    </a>
+                </div>
+                <!-- Contact Us end -->
+
+                <!-- register -->
+                <div class="show-item col-span-12 sm:col-span-6 lg:col-span-3 h-80 shadow group isotop_item account">
+                    <a href="register.html" class="col-span-3 block">
+                        <div class="relative">
+                            <div class="w-full h-[270px] ">
+                                <img src="assets/landing/images/pages/register.png" alt="pages"
+                                    class="w-full h-full object-cover object-top">
+                            </div>
+                            <div
+                                class="w-full h-full absolute left-0 top-0 opacity-0 group-hover:opacity-100 group-hover:bg-black group-hover:bg-opacity-50 transition duration-300 overflow-hidden">
+                                <div class="absolute left-1/2 top-1/2 -translate-y-1/2 text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M15 10h-3V7a1 1 0 0 0-2 0v3H7a1 1 0 0 0 0 2h3v3a1 1 0 0 0 2 0v-3h3a1 1 0 0 0 0-2Zm6.71 10.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 7-7a7 7 0 0 1-7 7Z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-3 text-center">
+                            <h4 class="text-lg text-[#2B2D42] font-medium">Register</h4>
+                        </div>
+                    </a>
+                </div>
+                <!-- register end -->
+
+                <!-- Product view -->
+                <div class="show-item col-span-12 sm:col-span-6 lg:col-span-3 h-80 shadow group isotop_item shop">
+                    <a href="product-view.html" class="col-span-3 block">
+                        <div class="relative">
+                            <div class="w-full h-[270px] ">
+                                <img src="assets/landing/images/pages/product-view.png" alt="pages"
+                                    class="w-full h-full object-cover object-top">
+                            </div>
+                            <div
+                                class="w-full h-full absolute left-0 top-0 opacity-0 group-hover:opacity-100 group-hover:bg-black group-hover:bg-opacity-50 transition duration-300 overflow-hidden">
+                                <div class="absolute left-1/2 top-1/2 -translate-y-1/2 text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M15 10h-3V7a1 1 0 0 0-2 0v3H7a1 1 0 0 0 0 2h3v3a1 1 0 0 0 2 0v-3h3a1 1 0 0 0 0-2Zm6.71 10.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 7-7a7 7 0 0 1-7 7Z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-3 text-center">
+                            <h4 class="text-lg text-[#2B2D42] font-medium">Product View</h4>
+                        </div>
+                    </a>
+                </div>
+                <!-- Product view end -->
+
+                <!-- Shop Grid -->
+                <div class="show-item col-span-12 sm:col-span-6 lg:col-span-3 h-80 shadow group isotop_item shop">
+                    <a href="grid-view.html" class="col-span-3 block">
+                        <div class="relative">
+                            <div class="w-full h-[270px] ">
+                                <img src="assets/landing/images/pages/shop-grid.png" alt="pages"
+                                    class="w-full h-full object-cover object-top">
+                            </div>
+                            <div
+                                class="w-full h-full absolute left-0 top-0 opacity-0 group-hover:opacity-100 group-hover:bg-black group-hover:bg-opacity-50 transition duration-300 overflow-hidden">
+                                <div class="absolute left-1/2 top-1/2 -translate-y-1/2 text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M15 10h-3V7a1 1 0 0 0-2 0v3H7a1 1 0 0 0 0 2h3v3a1 1 0 0 0 2 0v-3h3a1 1 0 0 0 0-2Zm6.71 10.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 7-7a7 7 0 0 1-7 7Z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-3 text-center">
+                            <h4 class="text-lg text-[#2B2D42] font-medium">Shop Grid</h4>
+                        </div>
+                    </a>
+                </div>
+                <!-- Shop Grid end -->
+
+                <!-- Shop Grid 2 -->
+                <div class="show-item col-span-12 sm:col-span-6 lg:col-span-3 h-80 shadow group isotop_item shop">
+                    <a href="grid-view-2.html" class="col-span-3 block">
+                        <div class="relative">
+                            <div class="w-full h-[270px] ">
+                                <img src="assets/landing/images/pages/shop-grid-2.png" alt="pages"
+                                    class="w-full h-full object-cover object-top">
+                            </div>
+                            <div
+                                class="w-full h-full absolute left-0 top-0 opacity-0 group-hover:opacity-100 group-hover:bg-black group-hover:bg-opacity-50 transition duration-300 overflow-hidden">
+                                <div class="absolute left-1/2 top-1/2 -translate-y-1/2 text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M15 10h-3V7a1 1 0 0 0-2 0v3H7a1 1 0 0 0 0 2h3v3a1 1 0 0 0 2 0v-3h3a1 1 0 0 0 0-2Zm6.71 10.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 7-7a7 7 0 0 1-7 7Z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-3 text-center">
+                            <h4 class="text-lg text-[#2B2D42] font-medium">Shop Grid 2</h4>
+                        </div>
+                    </a>
+                </div>
+                <!-- Shop Grid 2 end -->
+
+                <!-- Shop List -->
+                <div class="show-item col-span-12 sm:col-span-6 lg:col-span-3 h-80 shadow group isotop_item shop">
+                    <a href="list-view.html" class="col-span-3 block">
+                        <div class="relative">
+                            <div class="w-full h-[270px] ">
+                                <img src="assets/landing/images/pages/shop-list.png" alt="pages"
+                                    class="w-full h-full object-cover object-top">
+                            </div>
+                            <div
+                                class="w-full h-full absolute left-0 top-0 opacity-0 group-hover:opacity-100 group-hover:bg-black group-hover:bg-opacity-50 transition duration-300 overflow-hidden">
+                                <div class="absolute left-1/2 top-1/2 -translate-y-1/2 text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M15 10h-3V7a1 1 0 0 0-2 0v3H7a1 1 0 0 0 0 2h3v3a1 1 0 0 0 2 0v-3h3a1 1 0 0 0 0-2Zm6.71 10.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 7-7a7 7 0 0 1-7 7Z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-3 text-center">
+                            <h4 class="text-lg text-[#2B2D42] font-medium">Shop List</h4>
+                        </div>
+                    </a>
+                </div>
+                <!-- Shop List end -->
+
+                <!-- Shopping Cart -->
+                <div class="show-item col-span-12 sm:col-span-6 lg:col-span-3 h-80 shadow group isotop_item shop">
+                    <a href="shopping-cart.html" class="col-span-3 block">
+                        <div class="relative">
+                            <div class="w-full h-[270px] ">
+                                <img src="assets/landing/images/pages/shopping-cart.png" alt="pages"
+                                    class="w-full h-full object-cover object-top">
+                            </div>
+                            <div
+                                class="w-full h-full absolute left-0 top-0 opacity-0 group-hover:opacity-100 group-hover:bg-black group-hover:bg-opacity-50 transition duration-300 overflow-hidden">
+                                <div class="absolute left-1/2 top-1/2 -translate-y-1/2 text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M15 10h-3V7a1 1 0 0 0-2 0v3H7a1 1 0 0 0 0 2h3v3a1 1 0 0 0 2 0v-3h3a1 1 0 0 0 0-2Zm6.71 10.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 7-7a7 7 0 0 1-7 7Z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-3 text-center">
+                            <h4 class="text-lg text-[#2B2D42] font-medium">Shopping Cart</h4>
+                        </div>
+                    </a>
+                </div>
+                <!-- Shopping Cart end -->
+
+                <!-- Account -->
+                <div class="show-item col-span-12 sm:col-span-6 lg:col-span-3 h-80 shadow group isotop_item account">
+                    <a href="my-account.html" class="col-span-3 block">
+                        <div class="relative">
+                            <div class="w-full h-[270px] ">
+                                <img src="assets/landing/images/pages/account.png" alt="pages"
+                                    class="w-full h-full object-cover object-top">
+                            </div>
+                            <div
+                                class="w-full h-full absolute left-0 top-0 opacity-0 group-hover:opacity-100 group-hover:bg-black group-hover:bg-opacity-50 transition duration-300 overflow-hidden">
+                                <div class="absolute left-1/2 top-1/2 -translate-y-1/2 text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M15 10h-3V7a1 1 0 0 0-2 0v3H7a1 1 0 0 0 0 2h3v3a1 1 0 0 0 2 0v-3h3a1 1 0 0 0 0-2Zm6.71 10.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 7-7a7 7 0 0 1-7 7Z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-3 text-center">
+                            <h4 class="text-lg text-[#2B2D42] font-medium">My Account</h4>
+                        </div>
+                    </a>
+                </div>
+                <!-- Account end -->
+
+                <!-- Login -->
+                <div class="show-item col-span-12 sm:col-span-6 lg:col-span-3 h-80 shadow group isotop_item account">
+                    <a href="login.html" class="col-span-3 block">
+                        <div class="relative">
+                            <div class="w-full h-[270px] ">
+                                <img src="assets/landing/images/pages/login.png" alt="pages"
+                                    class="w-full h-full object-cover object-top">
+                            </div>
+                            <div
+                                class="w-full h-full absolute left-0 top-0 opacity-0 group-hover:opacity-100 group-hover:bg-black group-hover:bg-opacity-50 transition duration-300 overflow-hidden">
+                                <div class="absolute left-1/2 top-1/2 -translate-y-1/2 text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M15 10h-3V7a1 1 0 0 0-2 0v3H7a1 1 0 0 0 0 2h3v3a1 1 0 0 0 2 0v-3h3a1 1 0 0 0 0-2Zm6.71 10.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 7-7a7 7 0 0 1-7 7Z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-3 text-center">
+                            <h4 class="text-lg text-[#2B2D42] font-medium">Login</h4>
+                        </div>
+                    </a>
+                </div>
+                <!-- Login end -->
+
+                <!-- Checkout -->
+                <div class="show-item col-span-12 sm:col-span-6 lg:col-span-3 h-80 shadow group isotop_item account">
+                    <a href="checkout.html" class="col-span-3 block">
+                        <div class="relative">
+                            <div class="w-full h-[270px] ">
+                                <img src="assets/landing/images/pages/checkout.png" alt="pages"
+                                    class="w-full h-full object-cover object-top">
+                            </div>
+                            <div
+                                class="w-full h-full absolute left-0 top-0 opacity-0 group-hover:opacity-100 group-hover:bg-black group-hover:bg-opacity-50 transition duration-300 overflow-hidden">
+                                <div class="absolute left-1/2 top-1/2 -translate-y-1/2 text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M15 10h-3V7a1 1 0 0 0-2 0v3H7a1 1 0 0 0 0 2h3v3a1 1 0 0 0 2 0v-3h3a1 1 0 0 0 0-2Zm6.71 10.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 7-7a7 7 0 0 1-7 7Z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-3 text-center">
+                            <h4 class="text-lg text-[#2B2D42] font-medium">Checkout Page</h4>
+                        </div>
+                    </a>
+                </div>
+                <!-- Checkout end -->
+
+                <!-- Manage Address -->
+                <div class="show-item col-span-12 sm:col-span-6 lg:col-span-3 h-80 shadow group isotop_item account">
+                    <a href="manage-address.html" class="col-span-3 block">
+                        <div class="relative">
+                            <div class="w-full h-[270px] ">
+                                <img src="assets/landing/images/pages/account-manage-address.png" alt="pages"
+                                    class="w-full h-full object-cover object-top">
+                            </div>
+                            <div
+                                class="w-full h-full absolute left-0 top-0 opacity-0 group-hover:opacity-100 group-hover:bg-black group-hover:bg-opacity-50 transition duration-300 overflow-hidden">
+                                <div class="absolute left-1/2 top-1/2 -translate-y-1/2 text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M15 10h-3V7a1 1 0 0 0-2 0v3H7a1 1 0 0 0 0 2h3v3a1 1 0 0 0 2 0v-3h3a1 1 0 0 0 0-2Zm6.71 10.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 7-7a7 7 0 0 1-7 7Z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-3 text-center">
+                            <h4 class="text-lg text-[#2B2D42] font-medium">Manage Address</h4>
+                        </div>
+                    </a>
+                </div>
+                <!-- Manage Address end -->
+
+                <!-- My Review -->
+                <div class="show-item col-span-12 sm:col-span-6 lg:col-span-3 h-80 shadow group isotop_item account">
+                    <a href="my-reviews.html" class="col-span-3 block">
+                        <div class="relative">
+                            <div class="w-full h-[270px] ">
+                                <img src="assets/landing/images/pages/account-my-reviews.png" alt="pages"
+                                    class="w-full h-full object-cover object-top">
+                            </div>
+                            <div
+                                class="w-full h-full absolute left-0 top-0 opacity-0 group-hover:opacity-100 group-hover:bg-black group-hover:bg-opacity-50 transition duration-300 overflow-hidden">
+                                <div class="absolute left-1/2 top-1/2 -translate-y-1/2 text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M15 10h-3V7a1 1 0 0 0-2 0v3H7a1 1 0 0 0 0 2h3v3a1 1 0 0 0 2 0v-3h3a1 1 0 0 0 0-2Zm6.71 10.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 7-7a7 7 0 0 1-7 7Z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-3 text-center">
+                            <h4 class="text-lg text-[#2B2D42] font-medium">My Reviews</h4>
+                        </div>
+                    </a>
+                </div>
+                <!-- My Review end -->
+
+                <!-- Edit Payment Method -->
+                <div class="show-item col-span-12 sm:col-span-6 lg:col-span-3 h-80 shadow group isotop_item account">
+                    <a href="edit-payment-method.html" class="col-span-3 block">
+                        <div class="relative">
+                            <div class="w-full h-[270px] ">
+                                <img src="assets/landing/images/pages/account-edit-payment-method.png" alt="pages"
+                                    class="w-full h-full object-cover object-top">
+                            </div>
+                            <div
+                                class="w-full h-full absolute left-0 top-0 opacity-0 group-hover:opacity-100 group-hover:bg-black group-hover:bg-opacity-50 transition duration-300 overflow-hidden">
+                                <div class="absolute left-1/2 top-1/2 -translate-y-1/2 text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M15 10h-3V7a1 1 0 0 0-2 0v3H7a1 1 0 0 0 0 2h3v3a1 1 0 0 0 2 0v-3h3a1 1 0 0 0 0-2Zm6.71 10.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 7-7a7 7 0 0 1-7 7Z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-3 text-center">
+                            <h4 class="text-lg text-[#2B2D42] font-medium">Edit Payment Method</h4>
+                        </div>
+                    </a>
+                </div>
+                <!-- Edit Payment Method end -->
+
+                <!-- Change Password -->
+                <div class="show-item col-span-12 sm:col-span-6 lg:col-span-3 h-80 shadow group isotop_item account">
+                    <a href="change-password.html" class="col-span-3 block">
+                        <div class="relative">
+                            <div class="w-full h-[270px] ">
+                                <img src="assets/landing/images/pages/account-change-password.png" alt="pages"
+                                    class="w-full h-full object-cover object-top">
+                            </div>
+                            <div
+                                class="w-full h-full absolute left-0 top-0 opacity-0 group-hover:opacity-100 group-hover:bg-black group-hover:bg-opacity-50 transition duration-300 overflow-hidden">
+                                <div class="absolute left-1/2 top-1/2 -translate-y-1/2 text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M15 10h-3V7a1 1 0 0 0-2 0v3H7a1 1 0 0 0 0 2h3v3a1 1 0 0 0 2 0v-3h3a1 1 0 0 0 0-2Zm6.71 10.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 7-7a7 7 0 0 1-7 7Z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-3 text-center">
+                            <h4 class="text-lg text-[#2B2D42] font-medium">Change Password</h4>
+                        </div>
+                    </a>
+                </div>
+                <!-- Change Password end -->
+
+                <!-- Cencel Details -->
+                <div class="show-item col-span-12 sm:col-span-6 lg:col-span-3 h-80 shadow group isotop_item account">
+                    <a href="cencel-details.html" class="col-span-3 block">
+                        <div class="relative">
+                            <div class="w-full h-[270px] ">
+                                <img src="assets/landing/images/pages/account-cancel-details.png" alt="pages"
+                                    class="w-full h-full object-cover object-top">
+                            </div>
+                            <div
+                                class="w-full h-full absolute left-0 top-0 opacity-0 group-hover:opacity-100 group-hover:bg-black group-hover:bg-opacity-50 transition duration-300 overflow-hidden">
+                                <div class="absolute left-1/2 top-1/2 -translate-y-1/2 text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M15 10h-3V7a1 1 0 0 0-2 0v3H7a1 1 0 0 0 0 2h3v3a1 1 0 0 0 2 0v-3h3a1 1 0 0 0 0-2Zm6.71 10.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 7-7a7 7 0 0 1-7 7Z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-3 text-center">
+                            <h4 class="text-lg text-[#2B2D42] font-medium">Cencel Details</h4>
+                        </div>
+                    </a>
+                </div>
+                <!-- Cencel Details end -->
+
+                <!-- Order Cencel -->
+                <div class="show-item col-span-12 sm:col-span-6 lg:col-span-3 h-80 shadow group isotop_item account">
+                    <a href="order-cencel.html" class="col-span-3 block">
+                        <div class="relative">
+                            <div class="w-full h-[270px] ">
+                                <img src="assets/landing/images/pages/account-order-cancel.png" alt="pages"
+                                    class="w-full h-full object-cover object-top">
+                            </div>
+                            <div
+                                class="w-full h-full absolute left-0 top-0 opacity-0 group-hover:opacity-100 group-hover:bg-black group-hover:bg-opacity-50 transition duration-300 overflow-hidden">
+                                <div class="absolute left-1/2 top-1/2 -translate-y-1/2 text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M15 10h-3V7a1 1 0 0 0-2 0v3H7a1 1 0 0 0 0 2h3v3a1 1 0 0 0 2 0v-3h3a1 1 0 0 0 0-2Zm6.71 10.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 7-7a7 7 0 0 1-7 7Z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-3 text-center">
+                            <h4 class="text-lg text-[#2B2D42] font-medium">Order Cencel</h4>
+                        </div>
+                    </a>
+                </div>
+                <!-- Order Cencel end -->
+
+                <!-- Order Details -->
+                <div class="show-item col-span-12 sm:col-span-6 lg:col-span-3 h-80 shadow group isotop_item account">
+                    <a href="order-details.html" class="col-span-3 block">
+                        <div class="relative">
+                            <div class="w-full h-[270px] ">
+                                <img src="assets/landing/images/pages/account-order-details.png" alt="pages"
+                                    class="w-full h-full object-cover object-top">
+                            </div>
+                            <div
+                                class="w-full h-full absolute left-0 top-0 opacity-0 group-hover:opacity-100 group-hover:bg-black group-hover:bg-opacity-50 transition duration-300 overflow-hidden">
+                                <div class="absolute left-1/2 top-1/2 -translate-y-1/2 text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M15 10h-3V7a1 1 0 0 0-2 0v3H7a1 1 0 0 0 0 2h3v3a1 1 0 0 0 2 0v-3h3a1 1 0 0 0 0-2Zm6.71 10.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 7-7a7 7 0 0 1-7 7Z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-3 text-center">
+                            <h4 class="text-lg text-[#2B2D42] font-medium">Order Details</h4>
+                        </div>
+                    </a>
+                </div>
+                <!-- Order Details end -->
+
+                <!-- Order History -->
+                <div class="show-item col-span-12 sm:col-span-6 lg:col-span-3 h-80 shadow group isotop_item account">
+                    <a href="order-history.html" class="col-span-3 block">
+                        <div class="relative">
+                            <div class="w-full h-[270px] ">
+                                <img src="assets/landing/images/pages/account-order-history.png" alt="pages"
+                                    class="w-full h-full object-cover object-top">
+                            </div>
+                            <div
+                                class="w-full h-full absolute left-0 top-0 opacity-0 group-hover:opacity-100 group-hover:bg-black group-hover:bg-opacity-50 transition duration-300 overflow-hidden">
+                                <div class="absolute left-1/2 top-1/2 -translate-y-1/2 text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M15 10h-3V7a1 1 0 0 0-2 0v3H7a1 1 0 0 0 0 2h3v3a1 1 0 0 0 2 0v-3h3a1 1 0 0 0 0-2Zm6.71 10.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 7-7a7 7 0 0 1-7 7Z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-3 text-center">
+                            <h4 class="text-lg text-[#2B2D42] font-medium">Order History</h4>
+                        </div>
+                    </a>
+                </div>
+                <!-- Order History end -->
+
+                <!-- Payment Method -->
+                <div class="show-item col-span-12 sm:col-span-6 lg:col-span-3 h-80 shadow group isotop_item account">
+                    <a href="payment-method.html" class="col-span-3 block">
+                        <div class="relative">
+                            <div class="w-full h-[270px] ">
+                                <img src="assets/landing/images/pages/account-edit-payment-method.png" alt="pages"
+                                    class="w-full h-full object-cover object-top">
+                            </div>
+                            <div
+                                class="w-full h-full absolute left-0 top-0 opacity-0 group-hover:opacity-100 group-hover:bg-black group-hover:bg-opacity-50 transition duration-300 overflow-hidden">
+                                <div class="absolute left-1/2 top-1/2 -translate-y-1/2 text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M15 10h-3V7a1 1 0 0 0-2 0v3H7a1 1 0 0 0 0 2h3v3a1 1 0 0 0 2 0v-3h3a1 1 0 0 0 0-2Zm6.71 10.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 7-7a7 7 0 0 1-7 7Z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-3 text-center">
+                            <h4 class="text-lg text-[#2B2D42] font-medium">Payment Method</h4>
+                        </div>
+                    </a>
+                </div>
+                <!-- Payment Method end -->
+
+                <!-- Profile Info -->
+                <div class="show-item col-span-12 sm:col-span-6 lg:col-span-3 h-80 shadow group isotop_item account">
+                    <a href="profile-information.html" class="col-span-3 block">
+                        <div class="relative">
+                            <div class="w-full h-[270px] ">
+                                <img src="assets/landing/images/pages/account-profile-info.png" alt="pages"
+                                    class="w-full h-full object-cover object-top">
+                            </div>
+                            <div
+                                class="w-full h-full absolute left-0 top-0 opacity-0 group-hover:opacity-100 group-hover:bg-black group-hover:bg-opacity-50 transition duration-300 overflow-hidden">
+                                <div class="absolute left-1/2 top-1/2 -translate-y-1/2 text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M15 10h-3V7a1 1 0 0 0-2 0v3H7a1 1 0 0 0 0 2h3v3a1 1 0 0 0 2 0v-3h3a1 1 0 0 0 0-2Zm6.71 10.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 7-7a7 7 0 0 1-7 7Z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-3 text-center">
+                            <h4 class="text-lg text-[#2B2D42] font-medium">Profile Info</h4>
+                        </div>
+                    </a>
+                </div>
+                <!-- Profile Info end -->
+
+                <!-- Return details -->
+                <div class="show-item col-span-12 sm:col-span-6 lg:col-span-3 h-80 shadow group isotop_item account">
+                    <a href="return-order-details.html" class="col-span-3 block">
+                        <div class="relative">
+                            <div class="w-full h-[270px] ">
+                                <img src="assets/landing/images/pages/account-return-details.png" alt="pages"
+                                    class="w-full h-full object-cover object-top">
+                            </div>
+                            <div
+                                class="w-full h-full absolute left-0 top-0 opacity-0 group-hover:opacity-100 group-hover:bg-black group-hover:bg-opacity-50 transition duration-300 overflow-hidden">
+                                <div class="absolute left-1/2 top-1/2 -translate-y-1/2 text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M15 10h-3V7a1 1 0 0 0-2 0v3H7a1 1 0 0 0 0 2h3v3a1 1 0 0 0 2 0v-3h3a1 1 0 0 0 0-2Zm6.71 10.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 7-7a7 7 0 0 1-7 7Z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-3 text-center">
+                            <h4 class="text-lg text-[#2B2D42] font-medium">Return Details</h4>
+                        </div>
+                    </a>
+                </div>
+                <!-- return details end -->
+
+                <!-- Return Order -->
+                <div class="show-item col-span-12 sm:col-span-6 lg:col-span-3 h-80 shadow group isotop_item account">
+                    <a href="return-order.html" class="col-span-3 block">
+                        <div class="relative">
+                            <div class="w-full h-[270px] ">
+                                <img src="assets/landing/images/pages/account-return-order.png" alt="pages"
+                                    class="w-full h-full object-cover object-top">
+                            </div>
+                            <div
+                                class="w-full h-full absolute left-0 top-0 opacity-0 group-hover:opacity-100 group-hover:bg-black group-hover:bg-opacity-50 transition duration-300 overflow-hidden">
+                                <div class="absolute left-1/2 top-1/2 -translate-y-1/2 text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M15 10h-3V7a1 1 0 0 0-2 0v3H7a1 1 0 0 0 0 2h3v3a1 1 0 0 0 2 0v-3h3a1 1 0 0 0 0-2Zm6.71 10.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 7-7a7 7 0 0 1-7 7Z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-3 text-center">
+                            <h4 class="text-lg text-[#2B2D42] font-medium">Return Order</h4>
+                        </div>
+                    </a>
+                </div>
+                <!-- Return Order end -->
+
+                <!-- Review details -->
+                <div class="show-item col-span-12 sm:col-span-6 lg:col-span-3 h-80 shadow group isotop_item account">
+                    <a href="review-details.html" class="col-span-3 block">
+                        <div class="relative">
+                            <div class="w-full h-[270px] ">
+                                <img src="assets/landing/images/pages/account-review-details.png" alt="pages"
+                                    class="w-full h-full object-cover object-top">
+                            </div>
+                            <div
+                                class="w-full h-full absolute left-0 top-0 opacity-0 group-hover:opacity-100 group-hover:bg-black group-hover:bg-opacity-50 transition duration-300 overflow-hidden">
+                                <div class="absolute left-1/2 top-1/2 -translate-y-1/2 text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M15 10h-3V7a1 1 0 0 0-2 0v3H7a1 1 0 0 0 0 2h3v3a1 1 0 0 0 2 0v-3h3a1 1 0 0 0 0-2Zm6.71 10.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 7-7a7 7 0 0 1-7 7Z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-3 text-center">
+                            <h4 class="text-lg text-[#2B2D42] font-medium">Review Details</h4>
+                        </div>
+                    </a>
+                </div>
+                <!-- review details end -->
+
+                <!-- forgot password -->
+                <div class="show-item col-span-12 sm:col-span-6 lg:col-span-3 h-80 shadow group isotop_item account">
+                    <a href="forgot-password.html" class="col-span-3 block">
+                        <div class="relative">
+                            <div class="w-full h-[270px] ">
+                                <img src="assets/landing/images/pages/forgot-password.png" alt="pages"
+                                    class="w-full h-full object-cover object-top">
+                            </div>
+                            <div
+                                class="w-full h-full absolute left-0 top-0 opacity-0 group-hover:opacity-100 group-hover:bg-black group-hover:bg-opacity-50 transition duration-300 overflow-hidden">
+                                <div class="absolute left-1/2 top-1/2 -translate-y-1/2 text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M15 10h-3V7a1 1 0 0 0-2 0v3H7a1 1 0 0 0 0 2h3v3a1 1 0 0 0 2 0v-3h3a1 1 0 0 0 0-2Zm6.71 10.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 7-7a7 7 0 0 1-7 7Z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-3 text-center">
+                            <h4 class="text-lg text-[#2B2D42] font-medium">Forgot Password</h4>
+                        </div>
+                    </a>
+                </div>
+                <!-- forgot password end -->
+
+                <!-- order complete -->
+                <div class="show-item col-span-12 sm:col-span-6 lg:col-span-3 h-80 shadow group isotop_item account">
+                    <a href="order-complete.html" class="col-span-3 block">
+                        <div class="relative">
+                            <div class="w-full h-[270px] ">
+                                <img src="assets/landing/images/pages/order-completed.png" alt="pages"
+                                    class="w-full h-full object-cover object-top">
+                            </div>
+                            <div
+                                class="w-full h-full absolute left-0 top-0 opacity-0 group-hover:opacity-100 group-hover:bg-black group-hover:bg-opacity-50 transition duration-300 overflow-hidden">
+                                <div class="absolute left-1/2 top-1/2 -translate-y-1/2 text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M15 10h-3V7a1 1 0 0 0-2 0v3H7a1 1 0 0 0 0 2h3v3a1 1 0 0 0 2 0v-3h3a1 1 0 0 0 0-2Zm6.71 10.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 7-7a7 7 0 0 1-7 7Z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-3 text-center">
+                            <h4 class="text-lg text-[#2B2D42] font-medium">Order Complete</h4>
+                        </div>
+                    </a>
+                </div>
+                <!-- order complete end -->
+
+                <!-- payment page -->
+                <div class="show-item col-span-12 sm:col-span-6 lg:col-span-3 h-80 shadow group isotop_item account">
+                    <a href="payment.html" class="col-span-3 block">
+                        <div class="relative">
+                            <div class="w-full h-[270px] ">
+                                <img src="assets/landing/images/pages/payment.png" alt="pages"
+                                    class="w-full h-full object-cover object-top">
+                            </div>
+                            <div
+                                class="w-full h-full absolute left-0 top-0 opacity-0 group-hover:opacity-100 group-hover:bg-black group-hover:bg-opacity-50 transition duration-300 overflow-hidden">
+                                <div class="absolute left-1/2 top-1/2 -translate-y-1/2 text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M15 10h-3V7a1 1 0 0 0-2 0v3H7a1 1 0 0 0 0 2h3v3a1 1 0 0 0 2 0v-3h3a1 1 0 0 0 0-2Zm6.71 10.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 7-7a7 7 0 0 1-7 7Z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-3 text-center">
+                            <h4 class="text-lg text-[#2B2D42] font-medium">Payment Page</h4>
+                        </div>
+                    </a>
+                </div>
+                <!-- payment page end -->
+
+                <!-- privacy policy -->
+                <div class="show-item col-span-12 sm:col-span-6 lg:col-span-3 h-80 shadow group isotop_item other">
+                    <a href="privacy-policy.html" class="col-span-3 block">
+                        <div class="relative">
+                            <div class="w-full h-[270px] ">
+                                <img src="assets/landing/images/pages/privacy-policy.png" alt="pages"
+                                    class="w-full h-full object-cover object-top">
+                            </div>
+                            <div
+                                class="w-full h-full absolute left-0 top-0 opacity-0 group-hover:opacity-100 group-hover:bg-black group-hover:bg-opacity-50 transition duration-300 overflow-hidden">
+                                <div class="absolute left-1/2 top-1/2 -translate-y-1/2 text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M15 10h-3V7a1 1 0 0 0-2 0v3H7a1 1 0 0 0 0 2h3v3a1 1 0 0 0 2 0v-3h3a1 1 0 0 0 0-2Zm6.71 10.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 7-7a7 7 0 0 1-7 7Z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-3 text-center">
+                            <h4 class="text-lg text-[#2B2D42] font-medium">Privacy Policy</h4>
+                        </div>
+                    </a>
+                </div>
+                <!-- privacy policy end -->
+
+                <!-- terms & condition -->
+                <div class="show-item col-span-12 sm:col-span-6 lg:col-span-3 h-80 shadow group isotop_item other">
+                    <a href="terms-condition.html" class="col-span-3 block">
+                        <div class="relative">
+                            <div class="w-full h-[270px] ">
+                                <img src="assets/landing/images/pages/terms-condition.png" alt="pages"
+                                    class="w-full h-full object-cover object-top">
+                            </div>
+                            <div
+                                class="w-full h-full absolute left-0 top-0 opacity-0 group-hover:opacity-100 group-hover:bg-black group-hover:bg-opacity-50 transition duration-300 overflow-hidden">
+                                <div class="absolute left-1/2 top-1/2 -translate-y-1/2 text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M15 10h-3V7a1 1 0 0 0-2 0v3H7a1 1 0 0 0 0 2h3v3a1 1 0 0 0 2 0v-3h3a1 1 0 0 0 0-2Zm6.71 10.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 7-7a7 7 0 0 1-7 7Z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-3 text-center">
+                            <h4 class="text-lg text-[#2B2D42] font-medium">Terms & Condition</h4>
+                        </div>
+                    </a>
+                </div>
+                <!-- terms & condition end -->
+
+                <!-- track order -->
+                <div class="show-item col-span-12 sm:col-span-6 lg:col-span-3 h-80 shadow group isotop_item other">
+                    <a href="track-order.html" class="col-span-3 block">
+                        <div class="relative">
+                            <div class="w-full h-[270px] ">
+                                <img src="assets/landing/images/pages/track-order.png" alt="pages"
+                                    class="w-full h-full object-cover object-top">
+                            </div>
+                            <div
+                                class="w-full h-full absolute left-0 top-0 opacity-0 group-hover:opacity-100 group-hover:bg-black group-hover:bg-opacity-50 transition duration-300 overflow-hidden">
+                                <div class="absolute left-1/2 top-1/2 -translate-y-1/2 text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M15 10h-3V7a1 1 0 0 0-2 0v3H7a1 1 0 0 0 0 2h3v3a1 1 0 0 0 2 0v-3h3a1 1 0 0 0 0-2Zm6.71 10.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 7-7a7 7 0 0 1-7 7Z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-3 text-center">
+                            <h4 class="text-lg text-[#2B2D42] font-medium">Track Order</h4>
+                        </div>
+                    </a>
+                </div>
+                <!-- track order end -->
+
+                <!-- wishlist -->
+                <div class="show-item col-span-12 sm:col-span-6 lg:col-span-3 h-80 shadow group isotop_item other">
+                    <a href="wishlist.html" class="col-span-3 block">
+                        <div class="relative">
+                            <div class="w-full h-[270px] ">
+                                <img src="assets/landing/images/pages/wish-list.png" alt="pages"
+                                    class="w-full h-full object-cover object-top">
+                            </div>
+                            <div
+                                class="w-full h-full absolute left-0 top-0 opacity-0 group-hover:opacity-100 group-hover:bg-black group-hover:bg-opacity-50 transition duration-300 overflow-hidden">
+                                <div class="absolute left-1/2 top-1/2 -translate-y-1/2 text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M15 10h-3V7a1 1 0 0 0-2 0v3H7a1 1 0 0 0 0 2h3v3a1 1 0 0 0 2 0v-3h3a1 1 0 0 0 0-2Zm6.71 10.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 7-7a7 7 0 0 1-7 7Z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-3 text-center">
+                            <h4 class="text-lg text-[#2B2D42] font-medium">Wishlist</h4>
+                        </div>
+                    </a>
+                </div>
+                <!-- wishlist end -->
+
+                <!-- faq page -->
+                <div class="show-item col-span-12 sm:col-span-6 lg:col-span-3 h-80 shadow group isotop_item other">
+                    <a href="faq.html" class="col-span-3 block">
+                        <div class="relative">
+                            <div class="w-full h-[270px] ">
+                                <img src="assets/landing/images/pages/faq.png" alt="pages"
+                                    class="w-full h-full object-cover object-top">
+                            </div>
+                            <div
+                                class="w-full h-full absolute left-0 top-0 opacity-0 group-hover:opacity-100 group-hover:bg-black group-hover:bg-opacity-50 transition duration-300 overflow-hidden">
+                                <div class="absolute left-1/2 top-1/2 -translate-y-1/2 text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M15 10h-3V7a1 1 0 0 0-2 0v3H7a1 1 0 0 0 0 2h3v3a1 1 0 0 0 2 0v-3h3a1 1 0 0 0 0-2Zm6.71 10.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 7-7a7 7 0 0 1-7 7Z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-3 text-center">
+                            <h4 class="text-lg text-[#2B2D42] font-medium">FAQ Page</h4>
+                        </div>
+                    </a>
+                </div>
+                <!-- faq page end -->
+
+                <!-- 404 -->
+                <div class="show-item col-span-12 sm:col-span-6 lg:col-span-3 h-80 shadow group isotop_item other">
+                    <a href="404-2.html" class="col-span-3 block">
+                        <div class="relative">
+                            <div class="w-full h-[270px] ">
+                                <img src="assets/landing/images/pages/404.png" alt="pages"
+                                    class="w-full h-full object-cover object-top">
+                            </div>
+                            <div
+                                class="w-full h-full absolute left-0 top-0 opacity-0 group-hover:opacity-100 group-hover:bg-black group-hover:bg-opacity-50 transition duration-300 overflow-hidden">
+                                <div class="absolute left-1/2 top-1/2 -translate-y-1/2 text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M15 10h-3V7a1 1 0 0 0-2 0v3H7a1 1 0 0 0 0 2h3v3a1 1 0 0 0 2 0v-3h3a1 1 0 0 0 0-2Zm6.71 10.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 7-7a7 7 0 0 1-7 7Z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-3 text-center">
+                            <h4 class="text-lg text-[#2B2D42] font-medium">404</h4>
+                        </div>
+                    </a>
+                </div>
+                <!-- 404 end -->
+            </div>
+        </div>
+    </div>
+
+    <!--  theme features  -->
+    <div id="features" class="container mx-auto px-3 pb-14">
+
+        <h2 class="text-[32px] text-[#2B2D42] mb-7 text-center capitalize">Our theme features</h2>
+
+        <div class="grid grid-cols-12 gap-5">
+            <div class="col-span-12 sm:col-span-6 lg:col-span-3">
+                <div class="px-4 py-8 box_shadow rounded text-center">
+                    <div class="flex justify-center">
+                        <img src="assets/landing/images/features/Tailwind.png" alt="icon"
+                            class="w-[70px] h-[57px] object-contain">
+                    </div>
+                    <div class="mt-5">
+                        <h4 class="text-xl">Tailwind CSS</h4>
+                        <p class="text-sm text-[#464545] mt-1">
+                            Tailwind 3.2.6 World popular framework with a fully responsive and mobile-first design.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-span-12 sm:col-span-6 lg:col-span-3">
+                <div class="px-4 py-8 box_shadow rounded text-center">
+                    <div class="flex justify-center">
+                        <img src="assets/landing/images/features/mobile-view.png" alt="icon" class="w-[70px] h-[57px] object-contain">
+                    </div>
+                    <div class="mt-5">
+                        <h4 class="text-xl">Mobile Responsive</h4>
+                        <p class="text-sm text-[#464545] mt-1">
+                            Many people will be accessing the website from their phone, so we made responsive
+                            designs.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-span-12 sm:col-span-6 lg:col-span-3">
+                <div class="px-4 py-8 box_shadow rounded text-center">
+                    <div class="flex justify-center">
+                        <img src="assets/landing/images/features/browser.svg" alt="icon"
+                            class="w-[70px] h-[57px] object-contain">
+                    </div>
+                    <div class="mt-5">
+                        <h4 class="text-xl">Browser Compatibility</h4>
+                        <p class="text-sm text-[#464545] mt-1">
+                            All browsers tested. Including, opera, ie, Moz, and chrome. We believe to make
+                            beautiful.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-span-12 sm:col-span-6 lg:col-span-3">
+                <div class="px-4 py-8 box_shadow rounded text-center">
+                    <div class="flex justify-center">
+                        <img src="assets/landing/images/features/like.svg" alt="icon" class="w-[70px] h-[57px] object-contain">
+                    </div>
+                    <div class="mt-5">
+                        <h4 class="text-xl">Well Documentation</h4>
+                        <p class="text-sm text-[#464545] mt-1">
+                            Carefully created and easy to follow user guide included. Full clear hilighted code.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-span-12 sm:col-span-6 lg:col-span-3">
+                <div class="px-4 py-8 box_shadow rounded text-center">
+                    <div class="flex justify-center">
+                        <img src="assets/landing/images/features/layout.svg" alt="icon"
+                            class="w-[70px] h-[57px] object-contain">
+                    </div>
+                    <div class="mt-5">
+                        <h4 class="text-xl">Stunning Layouts</h4>
+                        <p class="text-sm text-[#464545] mt-1">
+                            RAFCART comes with all modern design & layout. You can easily control all the design.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-span-12 sm:col-span-6 lg:col-span-3">
+                <div class="px-4 py-8 box_shadow rounded text-center">
+                    <div class="flex justify-center">
+                        <img src="assets/landing/images/features/icones.png" alt="icon"
+                            class="w-[70px] h-[57px] object-contain">
+                    </div>
+                    <div class="mt-5">
+                        <h4 class="text-xl capitalize">Icones</h4>
+                        <p class="text-sm text-[#464545] mt-1">
+                            Line Awesome is a free, icon based outline font created as an alternative to Font
+                            Awesome
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-span-12 sm:col-span-6 lg:col-span-3">
+                <div class="px-4 py-8 box_shadow rounded text-center">
+                    <div class="flex justify-center">
+                        <img src="assets/landing/images/features/service.svg" alt="icon"
+                            class="w-[70px] h-[57px] object-contain">
+                    </div>
+                    <div class="mt-5">
+                        <h4 class="text-xl">24 Hour Support</h4>
+                        <p class="text-sm text-[#464545] mt-1">
+                            Our friendly & professional support team is there for you. Message us any time for
+                            query.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-span-12 sm:col-span-6 lg:col-span-3">
+                <div class="px-4 py-8 box_shadow rounded text-center">
+                    <div class="flex justify-center">
+                        <img src="assets/landing/images/features/customize.svg" alt="icon"
+                            class="w-[70px] h-[57px] object-contain">
+                    </div>
+                    <div class="mt-5">
+                        <h4 class="text-xl">Easy To Customize</h4>
+                        <p class="text-sm text-[#464545] mt-1">
+                            Clean Documentation with well intended and commented. So you can easily customize.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="bg-[#fd3d571a] py-14">
+        <div class="text-center">
+            <div class="flex justify-center mb-4">
+                <img src="assets/images/logo.svg" alt="logo">
+            </div>
+            <p class="footer_text">
+                © 2021 RAFCART By Programming Kit. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        function myFunction(x) {
+            x.classList.toggle('change')
+        }
+
+        const clickBtn = document.querySelector('.btn');
+        const dfWrap = document.querySelector('.df-wrap');
+
+        clickBtn.addEventListener('click', () => {
+            dfWrap.classList.toggle('active')
+        })
+
+        const filterContainer = document.querySelector('.filter-wrap');
+        galleryItems = document.querySelectorAll('.show-item');
+
+        filterContainer.addEventListener('click', (e) => {
+            if (e.target.classList.contains('filter-item')) {
+                filterContainer.querySelector('.active').classList.remove('active')
+                e.target.classList.add('active');
+                const filterValue = e.target.getAttribute('data-filter');
+                galleryItems.forEach((item) => {
+                    if (item.classList.contains(filterValue) || filterValue === 'all') {
+                        item.classList.remove('hide')
+                        item.classList.add('show')
+                    } else {
+                        item.classList.remove('show')
+                        item.classList.add('hide')
+                    }
+                })
+            }
+        })
+    </script>
+</body>
+
+
+<!-- Mirrored from themes.rslahmed.dev/rafcart-tailwind/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 29 May 2024 05:15:28 GMT -->
+</html>
